@@ -66,14 +66,31 @@ h1{
     
 }
 
-
 @media (min-width: 768px){
     body{
-    background-image: url('img/PinDown.io_@lotussmoon_1765594139.mp4');
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.;
-    overflow: hidden;
+        background-image: url('img/4.gif');
+        background-size: cover;
+        width: 100%;
+        overflow: hidden;
     }
 }
+    @media (min-width: 1200px){
+    body{
+        background-image: url('img/3.gif');
+        background-size: cover;
+        width: 100%;
+        overflow: hidden;
+    }
 
+
+
+}
+@media (max-width: 768px){
+    body{
+    background-image: url('img/hoho.gif');
+    background-size: cover;
+
+    
+}
+
+}
